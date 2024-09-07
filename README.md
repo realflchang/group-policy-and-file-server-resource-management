@@ -79,6 +79,57 @@ The policies added here will be reflected in our Client machine(s) in the same v
    c.	New policy appears in the domain:<br />
 <img src="https://github.com/user-attachments/assets/39aa777c-b25c-4ea2-b4ad-8019a951bd15" alt="New policy appears" /><br />
 
+   d.	Right-click on the new policy, and click “Edit…”:<br />
+<img src="https://github.com/user-attachments/assets/92eff0ed-f8f1-4fb7-9821-45470adc8d58" alt="Edit policy" /><br />
+
+   e.	This will bring up our Editor, where we can specify our policy:<br />
+<img src="https://github.com/user-attachments/assets/ce0e438a-7c5e-4d8e-94d8-aacb888a04fc" alt="Editor" /><br />
+
+   f.	Since this policy is for the computers, we navigate to Computer Configuration, Policies, Windows Settings, Security Settings, Account Policy:<br />
+<img src="https://github.com/user-attachments/assets/8dabf563-aea8-427c-95f6-164966f86e92" alt="Password Policy" /><br />
+
+   g.	Here we can define some attributes, such as password length, age, password complexity (ie. need combinations of letters, numbers, symbols)<br />
+<img src="https://github.com/user-attachments/assets/f4e1b4c8-ba93-4809-a5cc-7505ca4bc8b8" alt="Minimum password length Properties" /><br />
+<img src="https://github.com/user-attachments/assets/90645eab-ac17-4bf6-beb3-9e4c27e4db02" alt="Must meet complexity Properties" /><br />
+<img src="https://github.com/user-attachments/assets/60884b81-292e-4ff8-a7bd-8a6058915865" alt="Maximum password age Properties" /><br />
+<img src="https://github.com/user-attachments/assets/997b72cf-7463-485b-9e74-123279460477" alt="Edited policies" /><br />
+
+<p>13.	Let’s create a mapped network drive that all domain users will have access to once they log in:</p>
+
+   a.	Back in GPM, right-click on the domain, click Edit…:<br />
+<img src="https://github.com/user-attachments/assets/24d362f4-87af-46a0-8790-da946f90891c" alt="GPM Edit" /><br />
+
+   b.	Provide a descriptive name:<br />
+<img src="https://github.com/user-attachments/assets/4f72d85e-4590-4a96-af58-215787342735" alt="GPO Name" /><br />
+
+   c.	Back in the GPM, right click on the GPO just created, and click Edit:<br />
+<img src="https://github.com/user-attachments/assets/135dec16-12f5-463e-8925-a9c294b436ca" alt="Edit" /><br />
+
+   d.	Here we navigate to User Configuration, Preferences, Windows Settings, Drive Maps:<br />
+<img src="https://github.com/user-attachments/assets/ee7f2b58-ba01-4b64-affc-966df186ebd3" alt="Drive Maps" /><br />
+
+   e.	Provide the Location (full network path to the shared folder), Label as, & drive letter:<br />
+<img src="https://github.com/user-attachments/assets/56a0cca3-a839-448e-af8b-f333a49e1656" alt="New Drive Properties" /><br />
+<img src="https://github.com/user-attachments/assets/537ee8c2-298b-4f4a-bcd6-15b5c8c3fd09" alt="Drive Properties filled" /><br />
+<img src="https://github.com/user-attachments/assets/a0e2c79f-19b5-46e3-8693-d51fffe48ead" alt="Drive Maps S" /><br />
+
+   f.	Shared drive now appears when logged into a Client VM machine after restarting:<br />
+<img src="https://github.com/user-attachments/assets/c365943b-5f74-4740-9ec1-79e7ef54de23" alt="Client VM with mapped S drive" /><br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

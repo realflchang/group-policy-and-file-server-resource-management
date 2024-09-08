@@ -29,6 +29,8 @@ The policies added here will be reflected in our Client machine(s) in the same v
 
 <h2>Deployment and Configuration Steps</h2>
 
+<img src="https://github.com/user-attachments/assets/aa52ef92-9e20-40e6-804c-d03a239d1d9f" alt="Azure Active Directory Diagram with Group Policy Management and File Server Resource Manager" />
+
 <p>1. Set up DC1 VM and Client1 VM as before.</p>
 
 <p>2. Begin setting up the Group Policy Management (GPM) and File Server Resource Manager (FSRM). In our DC1, Server Manager in the top right, click on Manage, Add Roles and Features:</p>
